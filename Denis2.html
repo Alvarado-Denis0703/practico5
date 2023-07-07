@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barra de Navegación</title>
+  <style>
+    .navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #f55b62;
+      display: flex;
+    }
+
+    .navbar li {
+      margin-right: 10px;
+    }
+
+    .navbar li:last-child {
+      margin-right: 0;
+    }
+
+    .navbar li a {
+      display: block;
+      color: #140116;
+      text-decoration: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+    }
+
+    .navbar li a:hover {
+      background-color: #f06ab8;
+    }
+  </style>
+</head>
+<body>
+  <ul class="navbar">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#acerca">Acerca</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+</body>
+</html>

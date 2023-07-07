@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Galería de Imágenes</title>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .gallery img {
+      width: 200px;
+      height: auto;
+      margin: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+  <h1>Galería de Imágenes</h1>
+  <div class="gallery">
+    <img src="imagen1.jpg" alt="Imagen 1">
+    <img src="imagen2.jpg" alt="Imagen 2">
+    <img src="imagen3.jpg" alt="Imagen 3">
+    <!-- Agrega más imágenes aquí -->
+  </div>
+</body>
+</html>
